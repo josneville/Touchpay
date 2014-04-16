@@ -1,0 +1,5 @@
+venv
+*.pyc
+settings.py
+*.swp
+

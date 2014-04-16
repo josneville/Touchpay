@@ -1,0 +1,78 @@
+body{
+	background-color: #FF4444;
+    font-family: Avenir Next;
+}
+.content_holder{
+	width: 900px;
+	margin: 0px auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.title{
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+}
+#logo{
+	height: auto;
+	width: 300px;
+}
+#main_content_holder{
+	height: 400px;
+}
+
+.main_content{
+	float: left;
+	width: 48.75%;
+	height: 100%;
+	justify-content: center;
+	text-align: center;
+	background-color: #FF1B1B;
+    opacity: 0.9;
+}
+#pitch_video{
+	vertical-align: middle;
+	width: 90%;
+	height: 90%;
+	margin-top: 5%;
+}
+#vertical_div{
+	float: left;
+	width: 2.5%;
+	background-color: #FF4444;
+	height: 100%;
+}
+#horizontal_div{
+	height: 10%;
+	background-color: #FF4444;
+	width: 100%;
+}
+.section_content{
+	width: 100%;
+	height: 35%;
+	background-color: #FF1B1B;
+}
+.content{
+	height: 90%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ded;
+	font-size: 25px;
+}
+
+#email{
+	width: 75%;
+	height: 30px;
+	font-size: 20px;
+	color: #FF1B1B;
+}
+#submit{
+	height: 30px;
+	width: 70px;
+	vertical-align: middle;
+	background-color: white;
+	color: #FF1B1B;
+    cursor: pointer;
+    border-radius: 5px;
+}
