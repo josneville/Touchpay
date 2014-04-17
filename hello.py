@@ -5,14 +5,14 @@ import json
 import psycopg2
 
 conn = psycopg2.connect(
-    database="dsuvhmutdb5kt",
-    user="gddckuahktgsvu",
-    password="mqriCFpsXwB6jU6Y3ojpmLOPhr",
+    database="Nope. Not giving you this",
+    user="I'm not giving you my username",
+    password="Or my password",
     host="ec2-54-204-2-217.compute-1.amazonaws.com",
     port=5432
 )
 app = Flask(__name__)
-stripe.api_key = "sk_test_setJmneBfstSvHSULFKvh6Xs"
+stripe.api_key = "sk_test_setJmneBfstSvHSULFKvh6Xs" #<-- Expired
 @app.route('/')
 def hello():
     return render_template('base.html')
